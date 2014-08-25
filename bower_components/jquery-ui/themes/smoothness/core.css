@@ -11,10 +11,10 @@
 
 /* Layout helpers
 ----------------------------------*/
-.ui-helper-hidden {
+html /deep/ .ui-helper-hidden {
 	display: none;
 }
-.ui-helper-hidden-accessible {
+html /deep/ .ui-helper-hidden-accessible {
 	border: 0;
 	clip: rect(0 0 0 0);
 	height: 1px;
@@ -24,7 +24,7 @@
 	position: absolute;
 	width: 1px;
 }
-.ui-helper-reset {
+html /deep/ .ui-helper-reset {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -34,19 +34,19 @@
 	font-size: 100%;
 	list-style: none;
 }
-.ui-helper-clearfix:before,
-.ui-helper-clearfix:after {
+html /deep/ .ui-helper-clearfix:before,
+html /deep/ .ui-helper-clearfix:after {
 	content: "";
 	display: table;
 	border-collapse: collapse;
 }
-.ui-helper-clearfix:after {
+html /deep/ .ui-helper-clearfix:after {
 	clear: both;
 }
-.ui-helper-clearfix {
+html /deep/ .ui-helper-clearfix {
 	min-height: 0; /* support: IE7 */
 }
-.ui-helper-zfix {
+html /deep/ .ui-helper-zfix {
 	width: 100%;
 	height: 100%;
 	top: 0;
@@ -56,14 +56,14 @@
 	filter:Alpha(Opacity=0);
 }
 
-.ui-front {
+html /deep/ .ui-front {
 	z-index: 100;
 }
 
 
 /* Interaction Cues
 ----------------------------------*/
-.ui-state-disabled {
+html /deep/ .ui-state-disabled {
 	cursor: default !important;
 }
 
@@ -72,7 +72,7 @@
 ----------------------------------*/
 
 /* states and images */
-.ui-icon {
+html /deep/ .ui-icon {
 	display: block;
 	text-indent: -99999px;
 	overflow: hidden;
@@ -84,7 +84,7 @@
 ----------------------------------*/
 
 /* Overlays */
-.ui-widget-overlay {
+html /deep/ .ui-widget-overlay {
 	position: fixed;
 	top: 0;
 	left: 0;
